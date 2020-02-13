@@ -1,7 +1,10 @@
 package com.eeswan;
 
 import java.lang.annotation.*;
-
+/**
+ * Annotation 만들기
+ *
+ */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.FIELD})
 @Inherited

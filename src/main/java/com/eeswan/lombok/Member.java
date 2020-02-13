@@ -4,6 +4,11 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * lombok 기본사용
+ * 빌드시 자동으로 코드가 들어감
+ *
+ */
 @Setter @Getter @EqualsAndHashCode
 public class Member {
 

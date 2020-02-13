@@ -1,6 +1,7 @@
 package com.eeswan.proxy;
 
 /**
+ * 다이나믹 프록시 사용
  * 컴파일시점에서 프록시를 만듬
  */
 public class BookServiceProxy  implements BookService {

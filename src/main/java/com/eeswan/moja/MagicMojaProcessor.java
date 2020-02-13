@@ -5,7 +5,6 @@ import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.JavaFile;
 import com.squareup.javapoet.MethodSpec;
 import com.squareup.javapoet.TypeSpec;
-import com.sun.source.tree.Tree;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.Filer;
@@ -17,6 +16,13 @@ import javax.tools.Diagnostic;
 import java.io.IOException;
 import java.util.Set;
 
+/**
+ * 애노테이션 프로세서
+ * {@link AbstractProcessor}
+ * {@link Filer}
+ * {@link AutoService}
+ * javapoet 사용
+ */
 @AutoService(Processor.class)
 public class MagicMojaProcessor extends AbstractProcessor {
 
